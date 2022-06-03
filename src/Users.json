@@ -1,0 +1,32 @@
+[
+    {
+        "id": 5,
+        "name": "Jacob",
+        "lastmessage": "How are you",
+        "messages": []
+    },
+    {
+        "id": 6,
+        "name": "Mario",
+        "lastmessage": "Hey there",
+        "messages": []
+    },
+    {
+        "id": 7,
+        "name": "John Snow",
+        "lastmessage": "Hello",
+        "messages": []
+    },
+    {
+        "id": 8,
+        "name": "Tyrion Lannister",
+        "lastmessage": "what are you doing..",
+        "messages": []
+    },
+    {
+        "id": 9,
+        "name": "Jaime Lannister",
+        "lastmessage": "Hiiiiii",
+        "messages": []
+    }
+]

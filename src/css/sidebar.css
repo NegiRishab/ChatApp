@@ -1,0 +1,99 @@
+.sidebar-container {
+    /* takes 35 percent width only */
+    flex: 0.35;
+    background-color: rgb(220, 210, 210);
+}
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+    padding: 10px;
+    background-color: #ededed;
+}
+.sidebar-header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+.sidebar-header-right svg {
+    font-size: 20px;
+}
+.sidebar-search {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 40px;
+    padding: 10px;
+}
+.sidebar-search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    width: 100%;
+    border-radius: 20px;
+}
+.sidebar-search-container input {
+    border: 0;
+    margin-left: 10px;
+    outline: 0;
+    width: 100%;
+}
+/* sidebar Chat */
+.sidebar-chats {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.sidebar-chat {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+}
+.sidebar-chat:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+.sidebar-chat-info {
+    margin-left: 15px;
+}
+.sidebar-chat-info h2 {
+    font-size: 16px;
+}
+.sidebar-chat-info p {
+    font-size: 12px;
+}
+.sidebar-chat > h2 {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar-chat .MuiAvatar-circular {
+    width: 30px;
+    height: 30px;
+}
+/* side bar add chat with add button */
+.sidebar-addchat {
+    display: flex;
+    align-items: center;
+    color: rgb(129, 126, 126);
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 20px;
+    font-size: 13px;
+    height: 20px;
+}
+.sidebar-addchat:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+}
+/* .sidebar-addchat h2 {
+    font-size: 16px;
+} */
