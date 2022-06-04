@@ -55,7 +55,7 @@ function App() {
           lastmessage: val.lastmessage,
           messages: [],
         };
-git
+
         prev.push(newValObj);
 
         return [...prev];
